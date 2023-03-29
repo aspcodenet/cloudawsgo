@@ -11,4 +11,4 @@ artifacts:
   files:
     - 'cloudawsgo'
   name:     
-    - 'cloudawsgo_${GOOS}_${GOARCH}_$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+    - name: cloudawsgo_${GOOS}_${GOARCH}_$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
