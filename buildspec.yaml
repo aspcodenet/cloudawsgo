@@ -10,5 +10,4 @@ phases:
 artifacts:
   files:
     - 'cloudawsgo'
-  name:     
     - name: cloudawsgo_${GOOS}_${GOARCH}_$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
